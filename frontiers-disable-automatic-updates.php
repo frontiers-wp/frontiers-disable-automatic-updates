@@ -33,10 +33,10 @@ function frontiers_disable_automatic_updates()
     add_filter('auto_update_theme', '__return_false');
     add_filter('core_update_skip_new_bundled', '__return_true');
     // Disable themes auto-update email notifications.
-	add_filter( 'auto_theme_update_send_email', '__return_false' );
+	add_filter('auto_theme_update_send_email', '__return_false' );
 
     // Prevent WordPress core from automatically updating
-    add_filter('auto_update_core', '__return_false');
+	add_filter('auto_update_core', '__return_true');
     add_filter('wp_auto_update_core', '__return_false');
 }
 
