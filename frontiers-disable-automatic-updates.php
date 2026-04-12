@@ -31,6 +31,7 @@ function frontiers_disable_automatic_updates()
 
     // Prevent all theme updates from being automatically installed
     add_filter('auto_update_theme', '__return_false');
+    add_filter('core_update_skip_new_bundled', '__return_true');
     // Disable themes auto-update email notifications.
 	add_filter( 'auto_theme_update_send_email', '__return_false' );
 
