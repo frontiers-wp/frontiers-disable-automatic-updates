@@ -15,7 +15,7 @@ defined('ABSPATH') or die('Direct access not permitted.');
 
 // Define constant with current version
 if (! defined( 'FRONTIERS_DISABLE_AUTOMATIC_UPDATES_VERSION' ) ) {
-    define( 'FRONTIERS_DISABLE_AUTOMATIC_UPDATES_VERSION', '1.1.1' );
+    define( 'FRONTIERS_DISABLE_AUTOMATIC_UPDATES_VERSION', '1.0.0' );
 }
 
 /**
