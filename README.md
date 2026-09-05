@@ -39,6 +39,9 @@ Although they won't be executed automatically, updates can just be done regularl
 
 == Screenshots ==
 
+1. banner.722.250.png
+2. disable-automatic-updates.settings.png
+
 
 == Changelog ==
 
